@@ -1,0 +1,11 @@
+function fn() {
+
+	var config = {
+		loginUrl: 'https://login.microsoftonline.com/blueyonderinteroptestus.onmicrosoft.com',
+		baseUrl: 'https://api-tst.jdadelivers.com/'
+		
+	};
+
+	return config;
+
+}

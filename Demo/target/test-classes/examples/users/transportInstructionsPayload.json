@@ -1,0 +1,347 @@
+{
+
+  "shipment" : [ {
+
+    "shipFrom" : {
+
+      "address" : {
+
+        "geographicalCoordinates" : {
+
+          "latitude" : "14.9716",
+
+          "longitude" : "78.5946"
+
+        },
+
+        "streetAddressTwo" : "Appt 101",
+
+        "city" : "Milwaukee",
+
+        "cityCode" : "Milwaukee",
+
+        "countryCode" : "US",
+
+        "postalCode" : "53202",
+
+        "streetAddressOne" : "124 Main St",
+
+        "state" : "WI",
+
+        "streetAddressThree" : "Attn: Ted"
+
+      },
+
+      "contact" : [ {
+
+        "personName" : "Andrew Gallandr",
+
+        "communicationChannel" : [ {
+
+          "communicationChannelName" : "telephone",
+
+          "communicationChannelCode" : "TELEPHONE",
+
+          "communicationValue" : "8675309"
+
+        } ],
+
+        "contactTypeCode" : "CZL"
+
+      } ],
+
+      "primaryId" : "FC2"
+
+    },
+
+    "note" : [ ],
+
+    "transportCargoCharacteristics" : {
+
+      "totalGrossWeight" : {
+
+        "measurementUnitCode" : "KGM",
+
+        "value" : 25
+
+      },
+
+      "totalGrossVolume" : {
+
+        "measurementUnitCode" : "MTQ",
+
+        "value" : 10.2
+
+      },
+
+      "cargoTypeCode" : "12"
+
+    },
+
+    "chargeOverride" : [ ],
+
+    "plannedDespatch" : {
+
+      "logisticEventPeriod" : {
+
+        "beginDate" : "2020-12-05",
+
+        "endDate" : "2020-12-07",
+
+        "beginTime" : "00:00:00.000",
+
+        "endTime" : "23:59:00.000"
+
+      }
+
+    },
+
+    "additionalShipmentId" : [ ],
+
+    "plannedDelivery" : {
+
+      "logisticEventPeriod" : {
+
+        "beginDate" : "2020-12-05",
+
+        "endDate" : "2020-12-09",
+
+        "beginTime" : "00:00:00.000",
+
+        "endTime" : "23:59:00.000"
+
+      }
+
+    },
+
+    "primaryId" : "jacksparrow",
+
+    "transportReference" : [ ],
+
+    "carrier" : {
+
+      "additionalPartyId" : [ ],
+
+      "contact" : [ ],
+
+      "primaryId" : "ByManagedTestProvider"
+
+    },
+
+    "shipmentItem" : [ {
+
+      "transportReference" : [ ],
+
+      "transactionalTradeItem" : [ {
+
+        "itemName" : "ACME_BEANS",
+
+        "additionalTradeItemId" : [ ],
+
+        "primaryId" : "ACME_BEANS",
+
+        "transactionalItemData" : [ ],
+
+        "tradeItemQuantity" : {
+
+          "value" : 2
+
+        }
+
+      } ],
+
+      "commodityTypeCode" : [ ],
+
+      "packageTotal" : [ ],
+
+      "tmReferenceNumber" : [ ],
+
+      "lineItemNumber" : 1,
+
+      "handlingInstruction" : [ ],
+
+      "avpList" : [ ]
+
+    }, {
+
+      "transportReference" : [ ],
+
+      "transactionalTradeItem" : [ {
+
+        "itemName" : "ACME_NACHOS",
+
+        "additionalTradeItemId" : [ ],
+
+        "primaryId" : "ACME_NACHOS",
+
+        "transactionalItemData" : [ ],
+
+        "tradeItemQuantity" : {
+
+          "value" : 3
+
+        }
+
+      } ],
+
+      "commodityTypeCode" : [ ],
+
+      "packageTotal" : [ {
+
+        "totalGrossWeight" : {
+
+          "measurementUnitCode" : "LBR",
+
+          "value" : 30
+
+        },
+
+        "packageTypeCode" : "4C",
+
+        "totalPackageQuantity" : 10
+
+      } ],
+
+      "tmReferenceNumber" : [ ],
+
+      "lineItemNumber" : 2,
+
+      "handlingInstruction" : [ ],
+
+      "avpList" : [ ]
+
+    } ],
+
+    "tmReferenceNumber" : [ {
+
+      "referenceNumberValue" : "RefVal",
+
+      "referenceNumberName" : "TestRef"
+
+    } ],
+
+    "logisticUnit" : [ {
+
+      "primaryId" : "l123",
+
+      "dimension" : {
+
+        "depth" : {
+
+          "measurementUnitCode" : "MTR",
+
+          "value" : 17
+
+        },
+
+        "width" : {
+
+          "measurementUnitCode" : "MTR",
+
+          "value" : 12
+
+        },
+
+        "height" : {
+
+          "measurementUnitCode" : "MTR",
+
+          "value" : 10
+
+        }
+
+      }
+
+    } ],
+
+    "shipTo" : {
+
+      "address" : {
+
+        "geographicalCoordinates" : {
+
+          "latitude" : "12.9716",
+
+          "longitude" : "77.5946"
+
+        },
+
+        "streetAddressTwo" : "Appt 202",
+
+        "city" : "Milwaukee",
+
+        "cityCode" : "Milwaukee",
+
+        "countryCode" : "US",
+
+        "postalCode" : "53202",
+
+        "streetAddressOne" : "123 Main St",
+
+        "state" : "WI",
+
+        "streetAddressThree" : "Attn: Bob"
+
+      },
+
+      "contact" : [ {
+
+        "personName" : "John Delzar",
+
+        "communicationChannel" : [ {
+
+          "communicationChannelName" : "telephone",
+
+          "communicationChannelCode" : "TELEPHONE",
+
+          "communicationValue" : "5326120"
+
+        } ],
+
+        "contactTypeCode" : "CZL"
+
+      } ],
+
+      "primaryId" : "SHIPTO"
+
+    }
+
+  } ],
+
+  "logisticServicesSeller" : {
+
+    "additionalPartyId" : [ ],
+
+    "contact" : [ ],
+
+    "primaryId" : "PARTY002"
+
+  },
+
+  "documentStatusCode" : "ORIGINAL",
+
+  "requiresTransportPlanning" : false,
+
+  "consignment" : [ ],
+
+  "transportInstructionId" : "jacksparrow",
+
+  "entityId" : "42e5704c-2a3c-44ae-8a9a-3cd2486cb651",
+
+  "documentActionCode" : "ADD",
+
+  "avpList" : [ {
+
+    "name" : "shipmentStatus",
+
+    "value" : "open"
+
+  }, {
+
+    "name" : "transportMode",
+
+    "value" : "Parcel"
+
+  } ]
+
+} 
